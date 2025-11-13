@@ -8,7 +8,7 @@ let value_b=255;
 let w_r=20;
 let h_r=20;
 function setup() {
-  canvas=createCanvas(400, 400);
+  canvas=createCanvas(displayWidth, displayHeight);
   input_txt=createInput('sacude🫨me');
   slider_value=createSlider(1,100,40);
   slider_value.position(20,60);
@@ -31,4 +31,5 @@ h_r=random(height);
 value_r=random(255);
 value_g=random(255);
 value_b=random(255);
+
 }
